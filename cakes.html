@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Cakes - Confectionery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lavender;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            text-align: center;
+            margin: 10px;
+        }
+        header h1 {
+            background-color: #f7d794;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 20px;
+            display: inline-block;
+            margin: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .cake-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .cake-item {
+            margin: 20px;
+            text-align: center;
+        }
+        .cake-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .cake-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Cakes</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="cakes.html">Our Cakes</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <div class="cake-list">
+            <div class="cake-item">
+                <img src="image/wedding.jpeg" alt="Wedding Cake">
+                <h3>Wedding Cakes</h3>
+            </div>
+            <div class="cake-item">
+                <img src="image/birthday.jpeg" alt="Birthday Cake">
+                <h3>Birthday Cakes</h3>
+            </div>
+            <div class="cake-item">
+                <img src="image/Anniversary.jpeg" alt="Anniversary Cake">
+                <h3>Anniversary Cakes</h3>
+            </div>
+            <div class="cake-item">
+                <img src="image/holiday.jpeg" alt="Holiday Cake">
+                <h3>Holiday Cakes</h3>
+            </div>
+            <div class="cake-item">
+                <img src="image/baby.jpeg" alt="Baby Shower Cake">
+                <h3>Baby Shower Cakes</h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Confectionery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
